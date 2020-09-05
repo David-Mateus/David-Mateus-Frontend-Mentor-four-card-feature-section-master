@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+body{
+    background-color:hsl(0, 0%, 98%);
+    width:100%;
+    
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1120;
+    justify-content: center;
+    max-width: 1120;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: rgb(131, 131, 128);
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(94, 90, 90);
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+h3{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(61, 59, 59);
+}
+p{
+    display: block;
+    color: rgb(202, 188, 188);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    padding: 5px;
+    
+    
+}
+.box {
+    
+    width: 300px;
+    margin-right: 0px;
+    padding: 30px;
+    margin: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 6px 6px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+.box-cyan::after{
+    background-color:hsl(180, 62%, 55%) ;
+}
+.box-red::after{
+    background-color:hsl(0, 78%, 62%) ;
+}
+.box-orange::after{
+    background-color:hsl(34, 97%, 64%) ;
+}
+.box-blue::after{
+    background-color: hsl(212, 86%, 64%) ;
+}
+ 
+
+
+
+.box img{
+    display: block;
+    margin-left: auto;
+}
+.box-push{
+    transform: translateY(10%);
+}
+.box-pu{
+    transform: translateY(50%);
+}
+.box p{
+    font-size: 15px;
+    margin-left: -30px;
+}
+.boxbox p{
+    font-size: 15px;
+    margin-left: -25px;
+}
+
+
+
+
+.attribution { 
+    padding-top: 50px ;
+    font-size: 11px; text-align: center;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+.attribution a:link{
+    text-decoration: none;
+}
